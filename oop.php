@@ -11,6 +11,11 @@ public function __construct($title, $availableCopies) {
     $this->availableCopies = $availableCopies;
 }
 
+ // TODO: Add getTitle method
+ public function getTitle() {
+    return $this->title;
+}
+
 }
 
 ?>
