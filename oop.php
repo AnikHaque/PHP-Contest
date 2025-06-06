@@ -37,7 +37,8 @@ public function returnBook() {
 
 
 class Member {
-
+// TODO: Add properties as Private
+private $name;
   
 }
 
