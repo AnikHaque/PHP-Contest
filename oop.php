@@ -39,6 +39,26 @@ public function returnBook() {
 class Member {
 // TODO: Add properties as Private
 private $name;
+
+public function __construct($name) {
+    // TODO: Initialize properties
+    $this->name = $name;
+}
+
+// TODO: Add getName method
+public function getName() {
+    return $this->name;
+}
+
+// TODO: Add borrowBook method
+public function borrowBook(Book $book) {
+    $book->borrowBook();
+}
+
+// TODO: Add returnBook method
+public function returnBook(Book $book) {
+    $book->returnBook();
+}
   
 }
 
