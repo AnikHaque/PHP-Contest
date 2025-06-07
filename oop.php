@@ -21,6 +21,17 @@ public function getAvailableCopies() {
     return $this->availableCopies;
 }
 
+// TODO: Add borrowBook method
+public function borrowBook() {
+    if ($this->availableCopies > 0) {
+        $this->availableCopies--;
+    }
+}
+
+// TODO: Add returnBook method
+public function returnBook() {
+    $this->availableCopies++;
+}
 
 }
 
