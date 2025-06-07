@@ -1,4 +1,7 @@
 <?php
 
+class Book {
+
+}
 
 ?>
