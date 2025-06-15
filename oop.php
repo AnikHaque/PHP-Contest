@@ -16,6 +16,12 @@ public function __construct($title, $availableCopies) {
     return $this->title;
 }
 
+// TODO: Add getAvailableCopies method
+public function getAvailableCopies() {
+    return $this->availableCopies;
+}
+
+
 }
 
 ?>
